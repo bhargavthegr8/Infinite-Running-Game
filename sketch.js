@@ -214,7 +214,7 @@ function draw() {
         obstaclesGroup.destroyEach(),
         explosion.play();
       }else{
-        hurt.setVolume(0.3);
+        hurt.setVolume(1);
         hurt.play();
         player.changeAnimation("dead", playerDead);
         obstaclesGroup.destroyEach();
