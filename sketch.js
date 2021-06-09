@@ -127,11 +127,11 @@ function setup() {
   score = 0;
   button = createImg("soundOn.png");
   button.size(30,30)
-  button.position(16,251);
+  button.position(windowWidth/1.42,displayHeight/2.15);
   button.mousePressed(togglePlaying);
   button2 = createImg("soundOff.png");
   button2.size(30,30)
-  button2.position(16,251);
+  button2.position(windowWidth/1.42,displayHeight/2.15);
   button2.hide();
   button2.mousePressed(togglePlaying);
 }
