@@ -273,8 +273,6 @@ function draw() {
   textFont("Rockwell Condensed");
   text("Survival Time : "+survivalTime,10,30);
   text("High Score-: "+localStorage["HighestScore"],10,15);
-  textSize(10);
-  text("Email -: bhargavdasspace@gmail.com",450,15);
 }
 
 //functon to start everything from beginning
