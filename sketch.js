@@ -61,7 +61,7 @@ function preload(){
   gameO = loadSound("gameover.wav");
   jumpSound = loadSound("jump.wav")
   explosion = loadSound("sounds/explosion.ogg");
-  hurt = loadSound("sounds/snakehit.mp3");
+  hurt = loadSound("die.mp3");
 }
 
 function setup() {
