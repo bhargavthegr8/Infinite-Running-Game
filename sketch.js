@@ -27,6 +27,7 @@ var button, button2;
 localStorage["HighestScore"]=0;
 
 function preload(){
+  bgSound = loadSound("sounds/sci_fi_platformer02.ogg");
   playerAnimation = loadAnimation("player/run/run-1.png","player/run/run-2.png","player/run/run-3.png","player/run/run-4.png","player/run/run-5.png","player/run/run-6.png","player/run/run-7.png","player/run/run-8.png");
   player_collided = loadAnimation("explosion/enemy-explosion-1.png","explosion/enemy-explosion-2.png","explosion/enemy-explosion-3.png","explosion/enemy-explosion-4.png","explosion/enemy-explosion-5.png","explosion/enemy-explosion-6.png");
   player_jumping = loadAnimation("player/jump/jump-1.png","player/jump/jump-2.png","player/jump/jump-3.png","player/jump/jump-4.png","player/jump/jump-1.png")
@@ -61,7 +62,6 @@ function preload(){
   jumpSound = loadSound("jump.wav")
   explosion = loadSound("sounds/explosion.ogg");
   hurt = loadSound("sounds/snakehit.mp3");
-  bgSound = loadSound("sounds/sci_fi_platformer02.ogg");
 }
 
 function setup() {
